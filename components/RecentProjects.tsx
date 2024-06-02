@@ -6,7 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 const RecentProjects = () => {
     return (
-        <div id="projects" className="py-20">
+        <div id="projects" className="w-full py-20">
             <h1 className="heading">
                 a Small selection of{" "}
                 <span className="text-purple">recent projects</span>
