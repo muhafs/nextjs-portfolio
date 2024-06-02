@@ -7,18 +7,18 @@ const Clients = () => {
     return (
         <div id="testimonials" className="py-20">
             <h1 className="heading">
-                kind words from{" "}
+                Kind words from{" "}
                 <span className="text-purple">satisfied clients</span>
             </h1>
 
-            <div className="flex flex-col items-center max-lg:mt-10">
+            <div className="mt-10 flex flex-col items-center">
                 <InfiniteMovingCards
                     items={testimonials}
                     direction="right"
                     speed="slow"
                 />
 
-                <div className="flex flex-wrap items-center justify-center gap-4 max-lg:mt-10 md:gap-16">
+                <div className="mt-10 flex flex-wrap items-center justify-center gap-4 md:gap-16">
                     {companies.map(({ id, name, img, nameImg }) => (
                         <div
                             key={id}
